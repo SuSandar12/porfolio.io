@@ -27,6 +27,12 @@
     .card{
         height: 400px;
     }
+    @@media screen only and (max-width: 600px){
+            .only-mobile{
+                    display: block !important;
+                }
+    }
+    
     </style>
 
     <body>
@@ -123,7 +129,12 @@
                       </div>
                       <!--Here to insert new-->
                     </div>
+                    <div class="customNavigation only-mobile" style="display:none;">
+                    <a class="btn prev btn-floating waves-effect waves-light btn-large white"><i class="fa fa-chevron-left"></i></a>
+                    <a class="btn next btn-floating waves-effect waves-light btn-large white"><i class="fa fa-chevron-right"></i></a>                    
                   </div>
+                  </div>
+                  
               </div>
             </section>
           <!-- Start Footer -->
