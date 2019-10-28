@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
       <title>Hsu's Porfolio</title>
 
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
        <!-- CSS  -->      
       <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <!-- Font Awesome -->
@@ -95,8 +96,16 @@
                     <div class="row">
                       <div class="col s12 m4 l3">
                         <div class="about-inner-left">
-                          <img class="profile-img" src="img/profile-img.jpg" alt="Profile Image">
+                          <img class="profile-img" src="img/profile-img.jpg" alt="Profile Image"><br/><br/>
+                          <div>
+                            <a href="gallery.html">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                      View Design Collection 
+                              </button>
+                            </a>
+                          </div>
                         </div>
+
                       </div>
                       <div class="col s12 m8 l9">
                         <div class="about-inner-right">
@@ -294,254 +303,114 @@
             <section id="project">
               <div class="container">
                 <div class="education-inner">
-                  <h2 class="title">Project</h2>
-                  <div id="owl-carousel1" class="experience-slider row">
+                    <h2 class="title">Project</h2>
                     <!-- Start Single Experience -->
-                    <div class="col s12">
-                      <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                        <h2 class="experience-title">TWG Tea </h2>
-                          <img class="activator" src="img/graduate-cap.jpg">
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class ="card-header" id="headingOne">
+                                <h2 class="title">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    TWG Tea
+                                </button>
+                                </h2>
+                            </div> 
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="card-body">
+                                    <p><a href="https://www.twgtea.com">www.twgtea.com</a></p>
+                                    Ecommerce website based on Singapore and shipped to over 100 countries. 
+                                    Especially based on Dynamicweb Framework customized with C#, ASP.net, Razor and other frontend technology like HTML, CSS, JS. 
+                                    Mostly worked on checkout flow and shipping methods.          
+                              </div>
+                            </div>
                         </div>
-                        <div class="card-content">
-                          <span class="card-title activator reveal-title"><i class="material-icons right">more_vert</i></span>
-                          <p><a href="https://www.twgtea.com">twgtea.com</a></p>
+                        <div class="card">
+                            <div class ="card-header" id="headingTwo">
+                                <h2 class="title">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    Pet Lovers Center
+                                </button>
+                                </h2>
+                            </div> 
+                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                              <div class="card-body">
+                                    <p><a href="https://www.petloverscentre.com">petloverscentre.com</a></p>
+                                    Ecommerce website based on Singapore 
+                                  Especially based on Dynamicweb Framework customized with C#, ASP.net, Razor and other frontend technology like HTML, CSS, JS. 
+                                  Mostly worked on checkout flow and shipping methods.      
+                              </div>
+                            </div>
                         </div>
-                        <div class="card-reveal">
-                          <a href="https://www.twgtea.com" class="card-subtitle">twgtea.com</a>
-                          <p>
-                            <ul>
-                              <li>	Ecommerce website based on Singapore and shipped to over 100 countries. </li>
-                              <li>	Especially based on Dynamicweb Framework customized with C#, ASP.net, Razor and other frontend technology like HTML, CSS, JS. </p>
-                              <li>	Mostly worked on checkout flow and shipping methods. </li>
-                            </ul>
-                          </p>
+                        <div class="card">
+                            <div class ="card-header" id="headingThree">
+                                <h2 class="title">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                  The Commune Life
+                                </button>
+                                </h2>
+                            </div> 
+                            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+                              <div class="card-body">
+                                    <p><a href="https://thecommunelife.com">CommuneLife.com</a></p>
+                                    Ecommerce website based on Singapore 
+                                  Especially based on Dynamicweb Framework customized with C#, ASP.net, Razor and other frontend technology like HTML, CSS, JS. 
+                                    Mostly worked on API Development and Design.   
+                              </div>
+                            </div>
                         </div>
-                      </div>
+                        <div class="card">
+                            <div class ="card-header" id="headingFour">
+                                <h2 class="title">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                  Basic Teaching Guide 
+                                </button>
+                                </h2>
+                            </div> 
+                            <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  Android Mobile App
+                                    Android Mobile application for the Myanmar literacy system.
+                                    Selected as the final contestant to International ICT Innovative Service Awards  2017 competition's Finalists as a Myanmar team in Taipei.                          </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class ="card-header" id="headingFive">
+                                <h2 class="title">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                  MMKGWorld 
+                                </button>
+                                </h2>
+                            </div> 
+                            <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  Android Mobile App(Myanmar Kinder Garden Education)
+                                    Standalone Android Mobile Application developed during the 2016 SAMSUNG android mobile application training.                
+                                    e got the 2nd place  in Upper Myanmar and top ten finalists among the whole Myanmar Computer University.
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class ="card-header" id="headingSix">
+                                <h2 class="title">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                  HearU 
+                                </button>
+                                </h2>
+                            </div> 
+                            <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  www.hearu.org
+                                  Anonymous Reporting System which is for workplace bullying and harresment. 
+                                  Develop static website for Anonymous Reporting System
+                              </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col s12">
-                      <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                        <h2 class="experience-title">Pet Lovers Center </h2>
-                          <img class="activator" src="img/graduate-cap.jpg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator reveal-title"><i class="material-icons right">more_vert</i></span>
-                          <p><a href="https://www.petloverscentre.com">petloverscentre.com</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          <a href="https://www.petloverscentre.com" class="card-subtitle">www.petloverscentre.com</a>
-                          <p>
-                            <ul>
-                              <li>	Ecommerce website based on Singapore </li>
-                              <li>	Especially based on Dynamicweb Framework customized with C#, ASP.net, Razor and other frontend technology like HTML, CSS, JS. </p>
-                              <li>	Mostly worked on checkout flow and shipping methods. </li>
-                            </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s12">
-                      <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                        <h2 class="experience-title">Commune Life </h2>
-                          <img class="activator" src="img/graduate-cap.jpg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator reveal-title"><i class="material-icons right">more_vert</i></span>
-                          <p><a href="https://www.petloverscentre.com">CommuneLife.com</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          <a href="https://www.petloverscentre.com" class="card-subtitle">CommuneLife.com</a>
-                          <p>
-                            <ul>
-                              <li>	Ecommerce website based on Singapore and sells furniture</li>
-                              <li>	Especially based on Dynamicweb Framework customized with C#, ASP.net, Razor and other frontend technology like HTML, CSS, JS. </p>
-                              <li>	Mostly worked on API Development and Design.  </li>
-                            </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s12">
-                      <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                        <h2 class="experience-title">Basic Teaching Guide </h2>
-                          <img class="activator" src="img/graduate-cap.jpg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator reveal-title"><i class="material-icons right">more_vert</i></span>
-                          <p>Android Mobile App </p>
-                        </div>
-                        <div class="card-reveal">
-                          
-                          <p>
-                            <ul>
-                              <li>	Android Mobile application for the Myanmar literacy system.</li>
-                              <li>	Selected as the final contestant to International ICT Innovative Service Awards  2017 competition's Finalists as a Myanmar team in Taipei. </li>
-                            </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s12">
-                      <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                        <h2 class="experience-title">MMKGWorld</h2>
-                          <img class="activator" src="img/graduate-cap.jpg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator reveal-title"><i class="material-icons right">more_vert</i></span>
-                          <p>Android Mobile App </p>
-                        </div>
-                        <div class="card-reveal">
-                          
-                          <p>
-                            <ul>
-                              <li>Standalone Android Mobile Application developed during the 2016 SAMSUNG android mobile application training. </li>
-                              <li>We got the 2nd place  in Upper Myanmar and top ten finalists among the whole Myanmar Computer University.</li>
-                            </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>  
-                    <div class="col s12">
-                      <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                        <h2 class="experience-title">	HearU </h2>
-                          <img class="activator" src="img/graduate-cap.jpg">
-                        </div>
-                        <div class="card-content">
-                          <span class="card-title activator reveal-title"><i class="material-icons right">more_vert</i></span>
-                          <p><a href="www.hearu.org">www.hearu.org</a></p>
-                        </div>
-                        <div class="card-reveal">
-                          
-                          <p>
-                            <ul>
-                              <li>	Develop static website for Anonymous Reporting System </li>
-                            </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>                
-                  </div>
-                  <!-- owl navigation -->
-                  <div class="customNavigation">
-                    <a class="btn prev1 btn-floating waves-effect waves-light btn-large white"><i class="fa fa-chevron-left"></i></a>
-                    <a class="btn next1 btn-floating waves-effect waves-light btn-large white"><i class="fa fa-chevron-right"></i></a>                    
-                  </div>
                 </div>
               </div>
             </section>
-          </section>
           
-          <!-- Start Facts -->
-          <!--<section id="facts">
-            <div class="facts-overlay">
-              <div class="container">
-              <div class="row">
-                <div class="col s12">
-                  <div class="facts-inner">
-                    <div class="row">
-                      <div class="col s12 m4 l4">
-                        <div class="single-facts waves-effect waves-block waves-light">
-                          <i class="material-icons">work</i>
-                          <span class="counter">329</span>
-                          <span class="counter-text">Project Completed</span>
-                        </div>
-                      </div>
-                      <div class="col s12 m4 l4">
-                        <div class="single-facts waves-effect waves-block waves-light">
-                          <i class="material-icons">supervisor_account</i>
-                          <span class="counter">250</span>
-                          <span class="counter-text">Happy Clients</span>
-                        </div>
-                      </div>
-                      <div class="col s12 m4 l4">
-                        <div class="single-facts waves-effect waves-block waves-light">
-                          <i class="material-icons">redeem</i>
-                          <span class="counter">69</span>
-                          <span class="counter-text">Award Won</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-          </section>-->
-          <!-- Education -->
-          <!--<section id="Education">
-            <div class="container">
-              <div class="row">
-               <div class="col s12">
-                 <div class="testimonial-inner">
-                   <h2 class="title">Testimonial</h2>
-                   <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                    <div class="testimonial-slider-area">
-                      <div id="owl-carousel2" class="testimonial-slider row">
-                        <div class="col s12">
-                          <div class="single-testimonial">
-                            <div class="testimonial-img">
-                              <img src="img/profile-img.jpg" alt="img">
-                            </div>
-                            <div class="testimonial-content">
-                              <h3>Mike Jones</h3>
-                              <span>CEO, Google Inc.</span>
-                              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s12">
-                          <div class="single-testimonial">
-                            <div class="testimonial-img">
-                              <img src="img/profile-img.jpg" alt="img">
-                            </div>
-                            <div class="testimonial-content">
-                              <h3>Mike Jones</h3>
-                              <span>CEO, Google Inc.</span>
-                              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
-                            </div>
-                          </div>
-                        </div> 
-                        <div class="col s12">
-                          <div class="single-testimonial">
-                            <div class="testimonial-img">
-                              <img src="img/profile-img.jpg" alt="img">
-                            </div>
-                            <div class="testimonial-content">
-                              <h3>Mike Jones</h3>
-                              <span>CEO, Google Inc.</span>
-                              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col s12">
-                          <div class="single-testimonial">
-                            <div class="testimonial-img">
-                              <img src="img/profile-img.jpg" alt="img">
-                            </div>
-                            <div class="testimonial-content">
-                              <h3>Mike Jones</h3>
-                              <span>CEO, Google Inc.</span>
-                              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"</p>
-                            </div>
-                          </div>
-                        </div>                                       
-                      </div>
-                      <div class="customNavigation">
-                        <a class="btn prev2 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text"></i></a>
-                        <a class="btn next2 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text"></i></a>
-                      </div>                  
-                    </div>
-                 </div>
-               </div>
-               </div> 
-            </div>
-          </section>-->
           
+                    
           <!-- Start Footer -->
           <footer id="footer" role="contentinfo">
             <!-- Start Footer Top -->
@@ -620,6 +489,8 @@
       <!-- counter -->
       <script src="js/waypoints.min.js"></script>
       <script src="js/jquery.counterup.min.js"></script>     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
       <!-- Custom Js -->
       <script src="js/custom.js"></script>      
