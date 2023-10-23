@@ -1,34 +1,4 @@
-/*
-Template Name: MU Material
-Author: MarkUps
-Author URI: http://www.markups.io/
-Description: MU Material - Responsive Personal Portfolio Template with Material Design
-Version: 1.0
-Tags: light, white,One page,Personal,Portfolio,Material,Flat,custom-colors,Multi Color,responsive, html5, css3
-*/
 
-
-/* Table of Content
-==================================================
-
-  #BASIC TYPOGRAPHY
-  #HOME 
-  #ABOUT SECTION
-  #RESUME SECTION
-  #PORTFOLIO SECTION
-  #FACTS SECTION
-  #TESTIMONIAL SECTION
-  #HOME BLOG  
-  #FOOTER 
-  #BLOG PAGE  
-  #RESPONSIVE CSS
-
-*/
-
-
-/*--------------------*/
-/* BASIC TYPOGRAPHY */
-/*--------------------*/
 
 h1,
 h2,
@@ -256,7 +226,6 @@ nav .brand-logo img {
 
 
 .resume-btn {
-  margin-top: 160px;
   margin-left: 50px;
 }
 
